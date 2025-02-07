@@ -4,21 +4,23 @@
     font-family:"Roboto", serif; 
    
 }
-.login{
+header, main{
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 300px;
     align-items: center;
     border: solid 2px rgb(230, 230, 230);
-    padding: 10px;
+    padding: 40px;
     padding-top:  40px;
 }
 
-.box{
+.pagina-cadastro{
     display: flex;
     justify-content: center;
     margin-top: 200px;
+    flex-direction: column;
+    align-items: center;
 }
 
 input{
@@ -51,6 +53,7 @@ img{
     font-size: 17px;
     margin: 12px;
     color: rgb(163, 163, 163);
+    text-align: center;
     
    
 }
@@ -68,8 +71,61 @@ img{
     color:rgb(163, 163, 163) ;
 }
 
-a{
+.face, .link-cadastro{
     text-decoration: none;
     outline: none;
     color: white;
+}
+
+.conectar{
+    text-decoration: none;
+    outline: none;
+    color: blue;
+}
+
+.texto{
+    color: blue;
+    text-decoration: none;
+    outline: none;
+}
+
+footer{
+    border: 2px solid rgb(230, 230, 230);
+    padding: 10px;
+    margin: 20px;
+    width: 360px;
+    
+}
+
+.subtitulo{
+    text-align: center;
+    text-decoration: none;
+}
+
+.saiba-mais, .termos{
+    font-size: 13px;
+    text-align: center;
+   
+}
+
+header, main, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.erro{
+    border: 1px solid red;
+}
+
+.ok{
+    border: 1px solid green;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
